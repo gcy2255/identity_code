@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="taobao_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_taobao"
+        android:shortcutShortLabel="@string/shortcut_taobao_short"
+        android:shortcutLongLabel="@string/shortcut_taobao_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.identitycode.app"
+            android:targetClass="com.identitycode.app.MainActivity">
+            <extra
+                android:name="extra_platform"
+                android:value="taobao" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="cainiao_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_cainiao"
+        android:shortcutShortLabel="@string/shortcut_cainiao_short"
+        android:shortcutLongLabel="@string/shortcut_cainiao_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.identitycode.app"
+            android:targetClass="com.identitycode.app.MainActivity">
+            <extra
+                android:name="extra_platform"
+                android:value="cainiao" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="pdd_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_pdd"
+        android:shortcutShortLabel="@string/shortcut_pdd_short"
+        android:shortcutLongLabel="@string/shortcut_pdd_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.identitycode.app"
+            android:targetClass="com.identitycode.app.MainActivity">
+            <extra
+                android:name="extra_platform"
+                android:value="pdd" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="tuxi_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_tuxi"
+        android:shortcutShortLabel="@string/shortcut_tuxi_short"
+        android:shortcutLongLabel="@string/shortcut_tuxi_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.identitycode.app"
+            android:targetClass="com.identitycode.app.MainActivity">
+            <extra
+                android:name="extra_platform"
+                android:value="tuxi" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

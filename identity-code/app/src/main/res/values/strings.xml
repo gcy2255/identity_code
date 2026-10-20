@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">身份码</string>
+    <string name="shortcut_taobao_short">淘宝身份码</string>
+    <string name="shortcut_taobao_long">打开淘宝 · 菜鸟驿站身份码</string>
+    <string name="shortcut_cainiao_short">菜鸟身份码</string>
+    <string name="shortcut_cainiao_long">打开菜鸟身份码</string>
+    <string name="shortcut_pdd_short">拼多多身份码</string>
+    <string name="shortcut_pdd_long">打开拼多多身份码</string>
+    <string name="shortcut_tuxi_short">兔喜生活身份码</string>
+    <string name="shortcut_tuxi_long">打开微信 · 兔喜生活身份码</string>
+</resources>
